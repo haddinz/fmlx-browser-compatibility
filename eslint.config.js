@@ -33,8 +33,9 @@ export default tseslint.config(
       "compat/compat": "error",
     },
     settings: {
-      lintAllEsApis: true,
       polyfills: ["fetch"],
+      lintAllEsApis: true,
+      browsers: ["chrome 72"],
       ignores: ["dist", "node_modules", "build"],
     },
   }

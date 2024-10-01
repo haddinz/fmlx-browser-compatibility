@@ -13,17 +13,10 @@ function App() {
   // Instantiate PaymentRequest
   const req = new PaymentRequest();
 
-  // Instantiate IntersectionObserver
-  const observer = new IntersectionObserver(() => {});
-
-  const foo = Object.values({});
-
-  const boo = new ResizeObserver();
-
   const str = "Hello, world!";
   const newStr = str.replaceAll("world", "JavaScript");
 
-  console.log(req, observer, foo, boo, newStr)
+  console.log(newStr, req)
   return (
     <>
       <div>

@@ -1,0 +1,14 @@
+{
+  "plugins": ["stylelint-no-unsupported-browser-features"],
+  "rules": {
+    "plugin/no-unsupported-browser-features": [
+      true,
+      {
+        "browsers": ["chrome 72"],
+        "ignore": ["rem"],
+        "ignorePartialSupport": true,
+        "severity": "error"
+      }
+    ]
+  }
+}
