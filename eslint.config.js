@@ -13,7 +13,6 @@ export default tseslint.config(
     extends: [
       js.configs.recommended,
       ...tseslint.configs.recommended,
-      "plugin:compat/recommended",
     ],
     files: ["**/*.{ts,tsx}"],
     languageOptions: {
